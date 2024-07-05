@@ -25,6 +25,9 @@ const nextConfig = withStoreConfig({
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      {
+        hostname: "res.cloudinary.com",
+      },
     ],
   },
 })
